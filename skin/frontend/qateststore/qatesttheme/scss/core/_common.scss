@@ -819,6 +819,8 @@ a.button:hover {
 }
 
 .col3-layout {
+    margin: 0 auto;
+    max-width: 1260px;
     .col-right {
         width: percentage(200px/960px);
     }
@@ -835,6 +837,13 @@ a.button:hover {
         .col-left {
             width: percentage(200px/760px);
         }
+    }
+}
+
+.catalog-product-view, .customer-account-login, .customer-account-create {
+    .main-container.col1-layout {
+        margin: 0 auto;
+        max-width: 1260px;
     }
 }
 

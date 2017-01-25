@@ -60,8 +60,29 @@ body.cms-home {
     .promo-content {
         max-width: 1260px;
         margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 20px;
         .row-promo {
             //margin: 0 auto;
+            .promo-item.col-3 {
+                width: 33.33%;
+                float: left;
+
+                .promo-box-btn {
+                    margin-top: 12px;
+                    margin-bottom: 12px;
+
+                    .btn-class11 {
+                        border: 1px solid $c-blue;
+                        border-radius: 3px;
+                        padding: 5px 12px;
+                        cursor: pointer;
+                        vertical-align: middle;
+                        box-sizing: border-box;
+                        height: 35px;
+                    }
+                }
+            }
         }
     }
 
